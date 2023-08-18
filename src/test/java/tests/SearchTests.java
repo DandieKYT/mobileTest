@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 public class SearchTests extends TestBase {
 
     @Test
-    @DisplayName("Successful search")
+    @DisplayName("Java search")
     void successfulSearchTest() {
         step("Type search", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
