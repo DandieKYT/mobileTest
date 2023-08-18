@@ -1,1 +1,0 @@
-{"72df9c21fb468292506ba6dfd8a6a41c":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"ec21f89f4543f26f","status":"failed","statusDetails":"1 expectation failed.\nExpected status code <200> but was <404>.\n","time":{"start":1692308819645,"stop":1692308863294,"duration":43649}}]}}
