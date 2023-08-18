@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Aug 18 00:46:59 GMT+03:00 2023","Fri Aug 18 00:47:43 GMT+03:00 2023","43649","","tests.SearchTests","","tests.SearchTests","successfulSearchTest","Successful search",""
