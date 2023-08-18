@@ -19,7 +19,7 @@ public class SearchTests extends TestBase {
             $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Java");
         });
         step("Verify content found", () ->
-            $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_container"))
-                    .shouldHave(sizeGreaterThan(0)));
+                $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_container"))
+                        .shouldHave(sizeGreaterThan(0)));
     }
 }
