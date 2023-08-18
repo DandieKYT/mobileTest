@@ -16,7 +16,7 @@ public class SearchTests extends TestBase {
     void successfulSearchTest() {
         step("Type search", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
-            $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Appium");
+            $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Java");
         });
         step("Verify content found", () ->
             $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_container"))
