@@ -2,6 +2,7 @@ package testsLocal;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import drivers.AndroidLocalDriver;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
@@ -29,7 +30,6 @@ import static com.codeborne.selenide.Selenide.open;
         void afterEach() {
             Attach.screenshotAs("Last screenshot");
             Attach.pageSource();
-
             closeWebDriver();
         }
     }
